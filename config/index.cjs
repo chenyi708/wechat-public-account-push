@@ -46,8 +46,6 @@ const USER_CONFIG = {
       // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     earthyLoveWords: true,
     },
-    note_ch.DATA
-    note_en.DATA
   ],
 
 
