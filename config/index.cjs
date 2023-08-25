@@ -29,7 +29,7 @@ const USER_CONFIG = {
       horoscopeDateType: '今日',
       festivals: [
         {
-          type: '生日', name: '小橙子🍊', year: '1999', date: '11-03',
+          type: '生日', name: '小橙子宝贝', year: '1999', date: '11-03',
         },
          {
           type: '*生日', name: '大陈🍊', year: '1999', date: '07-08',
