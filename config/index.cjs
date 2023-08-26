@@ -46,6 +46,33 @@ const USER_CONFIG = {
       // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     earthyLoveWords: true,
     },
+    {
+      // 想要发送的人的名字
+      name: '大陈',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oQHHJ6CMzfQ7Y-RbYR7riat-__j8',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'TTS7JQJ8PHVUizSR4Q9SPCSLso-ZGFOFDYodI8X-wR8',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '11-03',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      festivals: [
+         {
+          type: '*生日', name: '大陈🍊', year: '1999', date: '07-08',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2023-05-20' },
+      ],
+       /** 节假日 */
+    // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    holidaytts: true,
+      // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    earthyLoveWords: true,
+    },
   ],
 
 
